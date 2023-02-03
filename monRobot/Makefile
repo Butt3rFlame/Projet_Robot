@@ -6,7 +6,7 @@
 
 # Répertoire d'installation de la librairie MRPiZ
 # pour la compilation à destination de la cible MRPiZ (à adapter) :
-LIB_MRPIZ = $(realpath ../lib_mrpiz-v0.3/)
+LIB_MRPIZ = $(realpath ../../lib_mrpiz-v0.3/)
 # exemple : LIB_MRPIZ = $(realpath ../lib_mrpiz-v0.3/)
 
 # Répertoire d'installation des outils de développement croisé (à adapter) :
