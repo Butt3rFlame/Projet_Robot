@@ -95,6 +95,7 @@ void Pilot_check()
 {
     pilot->state.collision = hasBumped();
     pilot->state.speed = Robot_getRobotSpeed();
+    
     if (hasBumped()){
         pilot->vel.dir = STOP;
         pilot->vel.power = 0;

@@ -1,15 +1,9 @@
 #
-# Hello Robot C - Makefile des sources du projet.
-#
-# @author Matthias Brun
-#
-
-#
 # Organisation des sources.
 #
 
 # Packages du projet (à compléter si besoin est).
-PACKAGES = mrRobot
+PACKAGES = pilot robot server
 
 # Un niveau de package est accessible.
 SRC  = $(wildcard */*.c)
@@ -25,7 +19,7 @@ MAIN = main.c
 DEP = $(MAIN:.c=.d)
 
 # Exécutable à générer.
-EXEC = ../$(PROG)
+EXEC = ../$(PROG_COMMANDO)
 
 # Inclusion depuis le niveau du package.
 CCFLAGS += -I.
